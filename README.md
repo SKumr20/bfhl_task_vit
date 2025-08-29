@@ -1,44 +1,5 @@
-# VIT Full Stack API
-
-A REST API built for VIT's full stack assignment that processes arrays and returns categorized data.
-
-## Features
-
-- **POST /bfhl**: Processes an array and returns:
-  - Even and odd numbers
-  - Alphabetical characters (uppercase)
-  - Special characters
-  - Sum of all numbers
-  - Concatenated alphabets in reverse order with alternating caps
-
-- **GET /bfhl**: Returns operation code for testing
-
-## API Documentation
-
-### Endpoint: `POST /bfhl`
-
-**Request Body:**
-```json
-{
-  "data": ["a","1","334","4","R", "$"]
-}
-```
-
-**Response:**
-```json
-{
-  "is_success": true,
-  "user_id": "john_doe_17091999",
-  "email": "john@xyz.com",
-  "roll_number": "ABCD123",
-  "odd_numbers": ["1"],
-  "even_numbers": ["334","4"],
-  "alphabets": ["A","R"],
-  "special_characters": ["$"],
-  "sum": "339",
-  "concat_string": "Ra"
-}
-```
+# Bajaj Finserv Health Task VIT
+# 22BEE1311 Satyam Kumar
 
 ## Local Development
 
@@ -105,10 +66,3 @@ The API includes comprehensive error handling for:
 - Server errors
 - Route not found (404)
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
